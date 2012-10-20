@@ -6,7 +6,7 @@ module toolsmod.httpsdownloader;
 const bool Delete = false;
 
 import tools.base, tools.fixed_socket, tools.compat;
-import dtls.tlssocket;
+import libdtls.tlssocket;
 
 string agent_override;
 
